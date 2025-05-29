@@ -1,0 +1,66 @@
+// src/data/concertsData.js
+
+const dummyConcerts = [
+  {
+    id: 1,
+    title: "Night of Jazz",
+    image: "/assets/image2.png",
+    desc: "Jakarta Jazz Ensemble",
+    date: "Sunday, 15 June 2025",
+    location: "Grand Amphitheater, Jakarta",
+    price: "Rp 350.000",
+    ticketsLeft: 245,
+  },
+  {
+    id: 2,
+    title: "Classical Melodies",
+    image: "/assets/image.png",
+    desc: "Surabaya Symphony Orchestra",
+    date: "Saturday, 28 June 2025",
+    location: "Heritage Hall, Surabaya",
+    price: "Rp 300.000",
+    ticketsLeft: 430,
+  },
+  {
+    id: 3,
+    title: "Rock Revolution",
+    image: "/assets/image2.png",
+    desc: "Thunder Strike",
+    date: "Saturday, 5 July 2025",
+    location: "Mountain View Arena, Bandung",
+    price: "Rp 400.000",
+    ticketsLeft: 320,
+  },
+  {
+    id: 4,
+    title: "Indie Folk Night",
+    image: "https://source.unsplash.com/featured/?acoustic",
+    desc: "Forest Whispers",
+    date: "Friday, 11 July 2025",
+    location: "The Garden Stage, Yogyakarta",
+    price: "Rp 250.000",
+    ticketsLeft: 180,
+  },
+  {
+    id: 5,
+    title: "Electronic Vibes",
+    image: "https://source.unsplash.com/featured/?electronic",
+    desc: "Neon Dreams",
+    date: "Saturday, 19 July 2025",
+    location: "Skyline Club, Jakarta",
+    price: "Rp 450.000",
+    ticketsLeft: 95,
+  },
+  {
+    id: 6,
+    title: "Pop Sensation",
+    image: "https://source.unsplash.com/featured/?pop",
+    desc: "StarLight",
+    date: "Sunday, 27 July 2025",
+    location: "Arena Mega, Surabaya",
+    price: "Rp 500.000",
+    ticketsLeft: 67,
+  },
+];
+
+export default dummyConcerts;
